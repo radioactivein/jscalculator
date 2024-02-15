@@ -1,6 +1,5 @@
 *,*::before, *::after{
     box-sizing: border-box;
-
 }
 
 body{
@@ -42,11 +41,11 @@ body{
     word-break: break-all;
 }
 
-.output , .revious-operand{
+.output .previous-operand{
     color: rgb(255, 255, 255,0.75);
     font-size: 1.5rem;
 }
-.output ,.current-operand{
+.output .current-operand{
     color: #ffffff;
     font-size: 2rem;
 }
