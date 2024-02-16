@@ -63,7 +63,8 @@ class Calculator{
         if(isNaN(integerDigits)){
             intergerDisplay = ''
         } else{
-            intergerDisplay = integerDigits.toLocaleString('en',{maximumFractionDigits:0})
+            intergerDisplay = integerDigits.toLocaleString('en',{
+                maximumFractionDigits: 0 })
         }
         if(decimalDigits != null) {
             return `${intergerDisplay}.${decimalDigits}`
